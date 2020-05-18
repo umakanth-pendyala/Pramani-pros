@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #ecf5ff;
+}
+
+.container {
+  padding-top: 5%;
+}
+
+.main-heading {
+  text-align: center;
+}
+
+.sub-heading {
+  text-align: center;
+}
+
+.courses-rows {
+  margin: 50px 0;
+}
+
+.my-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px .5px #333;
+  /* width: 300px; */
+  padding: 10px 30px;
+  /* width: fit-content; */
+  /* text-align: center; */
+  /* transition-property: color; */
+  transition-duration: .4s;
+}
+
+h4 {
+  transition-duration: .4s;
+}
+
+.my-card:hover {
+  background-color: #333;
+  color: white;
+}
+
+.my-card:hover > h4 {
+  /* background-color: red; */
+  color: red;
+  /* transition-duration: 2s; */
+}
+
+.my-col {
+  padding: 0 50px;
+  /* margin-left: 1px; */
+  padding-bottom: 30px;
+}
+
+.my-card p, .my-card h4 {
+  padding-top: 10px;
+}
+
+/* background-color: #00428a; */
